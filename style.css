@@ -67,10 +67,15 @@ img {
 
 /*-- HEADER --*/
 
+header {
+    position: fixed;
+    width: 100%;
+}
+
 .header-row {
     justify-content: space-between;
     background-color: #ff6900;
-    height: 70px;
+    min-height: 70px;
 }
 
 .nav {
