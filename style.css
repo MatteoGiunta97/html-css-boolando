@@ -6,11 +6,17 @@
     padding: 0;
 }
 
-a {
-    text-decoration: none;
+* {
+    font-family: Roboto;
 }
 
-ol,ul {
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ol,
+ul {
     list-style: none;
 }
 
@@ -21,19 +27,75 @@ button {
 
 img {
     width: 100%;
-    height: auto;
 }
 
 /*--/ RESET --*/
 
 /*-- GRID LAYOUT --*/
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .row {
     display: flex;
-    padding: 0;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.row>* {
+    padding: 0 10px;
+}
+
+.col-grow {
+    flex-grow: 1;
 }
 
 .col-33 {
     width: calc(100%/3);
 }
+
 /*--/ GRID LAYOUT --*/
+
+/*-- GENERAL --*/
+
+/*--/ GENERAL --*/
+
+/*-- HEADER --*/
+
+.header-row {
+    justify-content: space-between;
+}
+
+.container .row {
+    height: 70px;
+    background-color: #ff6900;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    color: white;
+}
+
+.nav-list li {
+    padding-left: 15px;
+}
+
+.row .logo {
+    max-width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*--/ HEADER --*/
