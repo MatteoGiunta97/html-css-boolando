@@ -70,6 +70,9 @@ img {
 header {
     position: fixed;
     width: 100%;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
 }
 
 .header-row {
@@ -103,6 +106,10 @@ header {
 /*--/ HEADER --*/
 
 /*-- MAIN --*/
+
+main {
+    padding-top: 70px;
+}
 
 .product {
     padding-top: 50px;
