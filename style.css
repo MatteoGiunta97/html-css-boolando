@@ -69,7 +69,6 @@ img {
 
 .pos-abs {
     position: absolute;
-    bottom: 90px;
 }
 
 /*--/ GENERAL --*/
@@ -133,6 +132,10 @@ main {
     font-size: 15px;
 }
 
+.tags {
+    bottom: 90px;
+}
+
 .sale {
     background-color: rgb(255, 2, 2);
     color: white;
@@ -146,6 +149,17 @@ main {
     font-size: small;
     padding: 5px;
     margin-left:3px ;
+}
+
+.favourite {
+    top: 70px;
+    right: 10px;
+}
+
+.favourite button {
+    background-color: white;
+    font-size: 35px;
+    padding: 5px 15px 5px 15px;
 }
 
 /*--/ MAIN --*/
