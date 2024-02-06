@@ -69,11 +69,8 @@ img {
 
 .header-row {
     justify-content: space-between;
-}
-
-.container .row {
-    height: 70px;
     background-color: #ff6900;
+    height: 70px;
 }
 
 .nav {
@@ -99,3 +96,20 @@ img {
 }
 
 /*--/ HEADER --*/
+
+/*-- MAIN --*/
+
+.product {
+    padding-top: 50px;
+}
+
+.price-sale {
+    color: red;
+}
+
+.price-old {
+    text-decoration: line-through;
+    font-size: 15px;
+}
+
+/*--/ MAIN --*/
