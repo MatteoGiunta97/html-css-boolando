@@ -63,6 +63,15 @@ img {
 
 /*-- GENERAL --*/
 
+.pos-rel {
+    position: relative;
+}
+
+.pos-abs {
+    position: absolute;
+    bottom: 90px;
+}
+
 /*--/ GENERAL --*/
 
 /*-- HEADER --*/
@@ -122,6 +131,21 @@ main {
 .price-old {
     text-decoration: line-through;
     font-size: 15px;
+}
+
+.sale {
+    background-color: rgb(255, 2, 2);
+    color: white;
+    font-size: small;
+    padding: 5px;
+}
+
+.eco {
+    background-color: rgb(0, 129, 24);
+    color: white;
+    font-size: small;
+    padding: 5px;
+    margin-left:3px ;
 }
 
 /*--/ MAIN --*/
